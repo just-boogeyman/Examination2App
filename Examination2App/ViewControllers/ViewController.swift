@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+	
+	var characterDataManager: ICharacterDataManeger?
 
 	override func viewDidLoad() {
 		super.viewDidLoad()

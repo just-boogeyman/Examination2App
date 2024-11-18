@@ -17,8 +17,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		window = UIWindow(windowScene: windowScene)
 		
 		let viewController = ViewController()
+		viewController.characterDataManager = build()
+		
 		window?.rootViewController = viewController
 		window?.makeKeyAndVisible()
 	}
 }
 
+extension SceneDelegate {
+	private func build() -> ICharacterDataManeger {
+		let repository = Repository()
+		let characterDataManager = CharacterDataManamer()
+		
+		characterDataManager.addModels(repository.getModels())
+		return characterDataManager
+	}
+}
