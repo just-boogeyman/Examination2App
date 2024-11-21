@@ -10,10 +10,13 @@
 		0448C77D2CEB7EF5003AEEDA /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448C77C2CEB7EF4003AEEDA /* CharacterModel.swift */; };
 		0448C7822CEB807F003AEEDA /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448C7812CEB807F003AEEDA /* Repository.swift */; };
 		0448C7842CEB808F003AEEDA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448C7832CEB808F003AEEDA /* DataManager.swift */; };
-		0448C7872CEB87B7003AEEDA /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448C7862CEB87B7003AEEDA /* HorizontalScrollView.swift */; };
+		0448C7892CECD000003AEEDA /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448C7882CECD000003AEEDA /* CustomView.swift */; };
+		0448C78B2CECD065003AEEDA /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448C78A2CECD064003AEEDA /* CustomImageView.swift */; };
+		0448C78D2CECD622003AEEDA /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448C78C2CECD622003AEEDA /* CharacterCell.swift */; };
+		0448C78F2CEF762C003AEEDA /* CustomLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448C78E2CEF762C003AEEDA /* CustomLable.swift */; };
 		04DCEF132CEB77AE00C429F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCEF122CEB77AE00C429F8 /* AppDelegate.swift */; };
 		04DCEF152CEB77AE00C429F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCEF142CEB77AE00C429F8 /* SceneDelegate.swift */; };
-		04DCEF172CEB77AE00C429F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCEF162CEB77AE00C429F8 /* ViewController.swift */; };
+		04DCEF172CEB77AE00C429F8 /* CharacterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCEF162CEB77AE00C429F8 /* CharacterTableView.swift */; };
 		04DCEF1C2CEB77AF00C429F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DCEF1B2CEB77AF00C429F8 /* Assets.xcassets */; };
 		04DCEF1F2CEB77AF00C429F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DCEF1D2CEB77AF00C429F8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -22,11 +25,14 @@
 		0448C77C2CEB7EF4003AEEDA /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		0448C7812CEB807F003AEEDA /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		0448C7832CEB808F003AEEDA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		0448C7862CEB87B7003AEEDA /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
+		0448C7882CECD000003AEEDA /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		0448C78A2CECD064003AEEDA /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		0448C78C2CECD622003AEEDA /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		0448C78E2CEF762C003AEEDA /* CustomLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLable.swift; sourceTree = "<group>"; };
 		04DCEF0F2CEB77AE00C429F8 /* Examination2App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examination2App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DCEF122CEB77AE00C429F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04DCEF142CEB77AE00C429F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04DCEF162CEB77AE00C429F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04DCEF162CEB77AE00C429F8 /* CharacterTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableView.swift; sourceTree = "<group>"; };
 		04DCEF1B2CEB77AF00C429F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DCEF1E2CEB77AF00C429F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DCEF202CEB77AF00C429F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				0448C7852CEB8794003AEEDA /* CustomElements */,
-				04DCEF162CEB77AE00C429F8 /* ViewController.swift */,
+				04DCEF162CEB77AE00C429F8 /* CharacterTableView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -72,7 +78,10 @@
 		0448C7852CEB8794003AEEDA /* CustomElements */ = {
 			isa = PBXGroup;
 			children = (
-				0448C7862CEB87B7003AEEDA /* HorizontalScrollView.swift */,
+				0448C7882CECD000003AEEDA /* CustomView.swift */,
+				0448C78A2CECD064003AEEDA /* CustomImageView.swift */,
+				0448C78C2CECD622003AEEDA /* CharacterCell.swift */,
+				0448C78E2CEF762C003AEEDA /* CustomLable.swift */,
 			);
 			path = CustomElements;
 			sourceTree = "<group>";
@@ -178,13 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DCEF172CEB77AE00C429F8 /* ViewController.swift in Sources */,
-				0448C7872CEB87B7003AEEDA /* HorizontalScrollView.swift in Sources */,
+				04DCEF172CEB77AE00C429F8 /* CharacterTableView.swift in Sources */,
+				0448C78B2CECD065003AEEDA /* CustomImageView.swift in Sources */,
+				0448C7892CECD000003AEEDA /* CustomView.swift in Sources */,
 				0448C7842CEB808F003AEEDA /* DataManager.swift in Sources */,
+				0448C78D2CECD622003AEEDA /* CharacterCell.swift in Sources */,
 				0448C77D2CEB7EF5003AEEDA /* CharacterModel.swift in Sources */,
 				0448C7822CEB807F003AEEDA /* Repository.swift in Sources */,
 				04DCEF132CEB77AE00C429F8 /* AppDelegate.swift in Sources */,
 				04DCEF152CEB77AE00C429F8 /* SceneDelegate.swift in Sources */,
+				0448C78F2CEF762C003AEEDA /* CustomLable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

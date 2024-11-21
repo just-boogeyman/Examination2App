@@ -7,10 +7,10 @@
 
 import Foundation
 
-enum CharacterStatus {
-	case alive
-	case dead
-	case unknown
+enum CharacterStatus: String {
+	case alive = "Alive"
+	case dead = "Dead"
+	case unknown = "Unknown"
 }
 
 struct CharacterSection {
