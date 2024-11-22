@@ -29,6 +29,20 @@ extension Repository {
 						status: .alive,
 						species: "Humanoid"
 					),
+					Character(
+						imageName: "8",
+						number: 8,
+						name: "Journalist Rick",
+						status: .alive,
+						species: "Human"
+					),
+					Character(
+						imageName: "11",
+						number: 11,
+						name: "Snake Arms",
+						status: .alive,
+						species: "Alien"
+					)
 				]),
 			CharacterSection(
 				title: .dead,
@@ -72,6 +86,20 @@ extension Repository {
 						name: "Alien Rick",
 						status: .unknown,
 						species: "Alien"
+			  ),
+					Character(
+						imageName: "9",
+						number: 9,
+						name: "Juggling Rick",
+						status: .unknown,
+						species: "Human"
+			  ),
+					Character(
+						imageName: "10",
+						number: 10,
+						name: "Mr. Meeseeks",
+						status: .unknown,
+						species: "Humanoid"
 			  )
 			]
 			)

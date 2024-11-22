@@ -27,7 +27,7 @@ class CastomLable: UILabel {
 extension CastomLable {
 	private func setupLable(fontName: String, size: CGFloat) {
 		font = UIFont(name: fontName, size: size)
-		textColor = .black
+		textColor = .white
 		textAlignment = .center
 	}
 }

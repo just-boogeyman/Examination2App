@@ -12,6 +12,8 @@ class CharacterCell: UITableViewCell {
 	private let titileLable = CastomLable(font: "Arial Rounded MT Bold", size: 20)
 	private let scrollView = UIScrollView()
 	private let stackView = UIStackView()
+	
+	var action: ((Int) -> ())?
 
 	
 	override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -29,8 +31,13 @@ class CharacterCell: UITableViewCell {
 		titileLable.textColor = .black
 		for character in characterSection.character {
 			let view = CustomView(character: character)
+			view.actions = tapView
 			stackView.addArrangedSubview(view)
 		}
+	}
+	
+	private func tapView(_ id: Int) {
+		action?(id)
 	}
 }
 
@@ -67,12 +74,12 @@ private extension CharacterCell {
 			scrollView.leadingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.leadingAnchor),
 			scrollView.trailingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.trailingAnchor),
 			scrollView.bottomAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.bottomAnchor),
-			scrollView.heightAnchor.constraint(equalToConstant: 220),
+			scrollView.heightAnchor.constraint(equalToConstant: 240),
 			
-			stackView.topAnchor.constraint(equalTo: scrollView.topAnchor),
+			stackView.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 16),
 			stackView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 16),
 			stackView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: -16),
-			stackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
+			stackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: 16)
 		])
 	}
 }
