@@ -15,6 +15,7 @@ class CharacterTableView: UITableViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		view.backgroundColor = .white
+		tableView.showsVerticalScrollIndicator = false
 		tableView.separatorStyle = .none
 		tableView.register(CharacterCell.self, forCellReuseIdentifier: cellIdeuntifier)
 	}

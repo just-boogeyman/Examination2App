@@ -38,6 +38,7 @@ class CharacterCell: UITableViewCell {
 private extension CharacterCell {
 	func setup() {
 		titileLable.textColor = .black
+		scrollView.showsHorizontalScrollIndicator = false
 		[scrollView, titileLable].forEach{contentView.addSubview($0)}
 		scrollView.addSubview(stackView)
 		setupStackView()
