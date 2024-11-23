@@ -39,20 +39,20 @@ class CharacterTableView: UITableViewController {
 
 extension CharacterTableView {
 	private func presentDetailsVC(id: Int) {
-		guard let character = getCharacter(id: id) else { return }
+		guard let character = characterDataManager.getSearchCharacter(id) else { return }
 		let detailVC = DetailsViewController()
 		detailVC.configure(chatacter: character)
 		present(detailVC, animated: true)
 	}
 	
-	private func getCharacter(id: Int) -> Character? {
-		for characterSection in characterDataManager.getAllModels() {
-			for chatacter in characterSection.character {
-				if chatacter.number == id {
-					return chatacter
-				}
-			}
-		}
-		return nil
-	}
+//	private func getCharacter(id: Int) -> Character? {
+//		for characterSection in characterDataManager.getAllModels() {
+//			for chatacter in characterSection.character {
+//				if chatacter.number == id {
+//					return chatacter
+//				}
+//			}
+//		}
+//		return nil
+//	}
 }

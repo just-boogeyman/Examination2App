@@ -10,6 +10,7 @@ import UIKit
 protocol ICharacterDataManeger {
 	func addModels(_ models: [CharacterSection])
 	func getAllModels() -> [CharacterSection]
+	func getSearchCharacter(_ id: Int) -> Character?
 }
 
 class CharacterDataManamer {
@@ -17,6 +18,17 @@ class CharacterDataManamer {
 }
 
 extension CharacterDataManamer: ICharacterDataManeger {
+	func getSearchCharacter(_ id: Int) -> Character? {
+		for section in characterSections {
+			for character in section.character {
+				if character.number == id {
+					return character
+				}
+			}
+		}
+		return nil
+	}
+	
 	func addModels(_ models: [CharacterSection]) {
 		characterSections.append(contentsOf: models)
 	}
